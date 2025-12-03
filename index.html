@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agency</title>
+    <link rel="stylesheet" href="travel.css">
+</head>
+<body>
+
+    <header>
+        <div>
+            <img src="travellogo.png" alt="Travel Logo" width="80" height="80">
+            <h1>Travel beyond your boundaries</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to Our Travel Agency</h2>
+            <p>We help you plan safe, affordable, and memorable trips. Choose a service below to get started.</p>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Flight booking</li>
+                <li>Hotel reservations</li>
+                <li>Guided tours</li>
+                <li>Travel insurance assistance</li>
+            </ul>
+        </section>
+
+        <section id="destinations">
+            <h2>Popular Destinations</h2>
+            <article>
+                <h3>Paris, France</h3>
+                <p>Romantic city of lights, museums, and cafés.</p>
+            </article>
+            <article>
+                <h3>Bali, Indonesia</h3>
+                <p>Beautiful beaches, temples, and relaxing resorts.</p>
+            </article>
+            <article>
+                <h3>New York, USA</h3>
+                <p>A bustling city with culture, food, and iconic landmarks.</p>
+            </article>
+        </section>
+
+        <section id="contact">
+            <h2>Contact / Booking Request</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="destination">Desired destination:</label><br>
+                <input type="text" id="destination" name="destination"><br><br>
+
+                <label for="message">Message / Questions:</label><br>
+                <textarea id="message" name="message" rows="4"></textarea><br><br>
+
+                <button type="submit">Send Booking Request</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Travel Agency</p>
+        <p>Email: info@travelagency.example</p>
+    </footer>
+
+</body>
+</html>
